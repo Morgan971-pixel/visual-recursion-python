@@ -95,6 +95,10 @@ This program demonstrates several important concepts:
 
 The program generates a fractal tree that resembles natural tree growth patterns, with branches that split and become progressively smaller, creating a visually appealing and mathematically interesting structure.
 
+![Fractal Tree](fractal_tree.png)
+
+*Generated fractal tree using recursive algorithm with 30° branch angles and 70% length reduction*
+
 ## Learning Objectives
 
 - Understanding recursive algorithms

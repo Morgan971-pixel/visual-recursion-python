@@ -23,10 +23,17 @@ def draw_tree():
     fig, ax = plt.subplots(figsize=(6, 8))
     ax.set_aspect('equal')
     ax.axis("off")
+    
+    # Set background to white
+    fig.patch.set_facecolor('white')
 
     # Start at (0, 0) and go upward at 90 degrees
     draw_branch(0, 0, 100, 90, ax)
 
+    # Save the image first
+    plt.savefig('fractal_tree.png', dpi=300, bbox_inches='tight', facecolor='white')
+    print("Tree image saved as 'fractal_tree.png'")
+    
     plt.show()
 
 draw_tree()
